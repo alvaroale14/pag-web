@@ -17,7 +17,7 @@ header {
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
-    justify-content: 20px;
+    justify-content: center;
 
 }
 .chamada-texto{
@@ -34,20 +34,21 @@ p {
 img{
     height: 200px;
 }
-.fila-de-videos{
+.categoria-videos {
     display: flex;
     overflow-x: auto;
     gap: 20px;
 }
-.videos{
+.categoria{
     padding-left: 20px;
     padding-right: 20px;
 }
-.videos img{
+.categoria-videos img{
     opacity: 0.5;
-    height: 2-500px;
-}
-.videos img:hover{
-    opacity: 1.0;
+    height: 200px;
     border: 5px solid black;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+   
 }
